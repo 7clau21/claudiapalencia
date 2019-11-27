@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid banner">
+    <div class="container">
+    <div class="header">
+        <h1 class="display-3">Crystal Collector</h1>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="instructions">
+        <h3>Here's how you play the game</h3>
+        </br>
+        <ol>
+            <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+            <li>There are four crystals below.</li>
+            <ul>
+                <li id="blue">Blue</li>
+                <li id="green">Green</li>
+                <li id="red">Red</li>
+                <li id="yellow">Yellow</li>
+            </ul>
+            <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+            <li>You win the game by matching your total score to the random number.</li>
+            <li>You lose the game if your total score goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+        </ol>
+    </div>
+    </div>
+    <div class="container">
+        <div class="card wins-losses">
+        <div class="card-body">
+            <h4 class="card-title">Number to Match</h4>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+            <p class="card-text"><span id= "randomNumber"></span></p>
+        </div>
+        </div>
+<div class="card wins-losses">
+    <div class="card-body">
+    <h4 class="card-title">Wins</h4>
+    <h6 class="card-subtitle mb-2 text-muted"></h6>
+    <p class="card-text"><span id= "numberWins"></span></p>
+  </div>
+</div>
+<div class="card wins-losses">
+  <div class="card-body">
+    <h4 class="card-title">Losses</h4>
+    <h6 class="card-subtitle mb-2 text-muted"></h6>
+    <p class="card-text"><span id= "numberLosses"></span></p>
+ </div>
+</div>
+<div class="card wins-losses">
+    <div class="card-body">
+    <h4 class="card-title">Your Number</h4>
+    <h6 class="card-subtitle mb-2 text-muted"></h6>
+    <p class="card-text"><span id= "finalTotal"></span></p>
+  </div>
+</div>
+</div>
+<div class="container">
+<div class="card-deck">
+  <div class="card border-primary mb-3 gem-card">
+    <img class="card-img-top gem-image" id="one" src="assets/images/blue.png" alt="blue-gem">
+    <div class="card-body">
+      <h4 class="card-title">Blue Gem</h4>
+    </div>
+  </div>
+  <div class="card border-success mb-3 gem-card">
+    <img class="card-img-top gem-image" id="two" src="assets/images/green.png" alt="green-gem">
+    <div class="card-body">
+      <h4 class="card-title">Green Gem</h4>
+   </div>
+  </div>
+  <div class="card border-danger mb-3 gem-card">
+    <img class="card-img-top gem-image" id="three" src="assets/images/red.png" alt="red-gem">
+    <div class="card-body">
+      <h4 class="card-title">Red Gem</h4>
+   </div>
+  </div>
+   <div class="card border-warning mb-3 gem-card">
+    <img class="card-img-top gem-image" id="four" src="assets/images/yellow.png" alt="yellow-gem">
+    <div class="card-body">
+      <h4 class="card-title">Yellow Gem</h4>
+      </div>
+  </div>
+</div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>

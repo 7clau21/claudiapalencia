@@ -1,0 +1,54 @@
+.banner{
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+body{
+    background-image: url("../images/background.png")
+}
+h1, h3, span{
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 30pt;
+}
+h4{
+    text-align: center;
+}
+ol{
+    list-style: decimal inside; 
+    text-align: center;
+}
+ul {
+    list-style: disc inside;
+    text-indent: 20px;
+}
+/* IDs */
+#blue{
+    color: #3092c7;
+}
+#green{
+    color: #00aa59;
+}
+#red{
+    color: #ec4b5f;
+}
+#yellow{
+    color: #ffc225;
+}
+.card-deck {
+    margin-top:50px;
+    margin-bottom: 150px;
+}
+.gem-card{
+    background-color: transparent;
+
+}
+.wins-losses{
+    
+    margin: 10px;
+}
+.card-text{
+    text-align: center;
+    font-size: 25px;
+}

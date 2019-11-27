@@ -1,0 +1,47 @@
+body{
+    background: url('../images/ws_Jelly_fish_fields_1600x1200.jpg');
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+header{
+    margin-bottom: 20px;
+    height: 500px;
+}
+.btn-primary,.reset{
+    background-color: #313477;
+    color: white;
+    font-family: 'Sigmar One', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.btn-primary:hover, .reset:hover{
+    background-color: #202364;
+}
+.container{
+    margin-bottom: 100px;
+    text-align: center;
+    height: 100%;
+    width: 700px;
+}
+h2, #message, #finalMessage{
+    font-family: Sigmar One;
+    color: white;
+}
+.thisChoice:hover{
+    background-color: #202364;
+    color: white;
+    padding: 10px;
+}
+#gif{
+    margin: 30px;
+}
+@media screen and (max-width:640px){
+    .container{
+        width: 500px;
+        size: 200%;
+    }  
+    header{
+    height: 250px;
+}
+}

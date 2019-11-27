@@ -1,0 +1,11 @@
+/* Your custom styles */
+
+#contact-container {
+    margin-top: 75px;
+}
+#list-group-item{
+    float: left;
+}
+footer{
+    width: 100%;
+}
