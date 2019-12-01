@@ -1,4 +1,57 @@
-/* Your custom styles */
+/* global */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+/*MAIN COLORS*/
+.g-bkgd {
+    background-color: #9ee00e; 
+}
+
+.peach {
+    background-color: #ee9090;
+}
+
+.purps {
+    background-color: #9090ee;
+}
+
+.text-white {
+    color: #fff;
+}
+
+
+/* nav */
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+/* socials */
+.social {
+    text-decoration: none;
+    color:lightgray;
+    margin-right:1rem;
+}
+
+.social:hover {
+    color:#9ee00e;
+}
+
+/* footer */
+.foot {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: .9rem;
+}
 
 #contact-container {
     margin-top: 75px;
